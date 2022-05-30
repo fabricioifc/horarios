@@ -1,0 +1,9 @@
+[
+    {
+        "0": {"hora": "07:30 - 08:15", "desc": "Manutenção de Ensino"},
+        "1": {"hora": "08:15 - 09:00", "desc": "Manutenção de Ensino"},
+        "2": {"hora": "09:00 - 09:45", "desc": "Manutenção de Ensino"},
+        "3": {"hora": "10:00 - 10:45", "desc": "Manutenção de Ensino"},
+        "4": {"hora": "10:45 - 11:30", "desc": "Manutenção de Ensino"}
+    }
+]
