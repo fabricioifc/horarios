@@ -1,12 +1,12 @@
 // import horarios from './horarios.json' assert {type: 'json'}
 
 let horarios = [
-    { hora: "07:30 - 08:15", segunda: "Manutenção de Ensino", terça: "Manutenção de Ensino", quarta: "", quinta: "Atendimento ao Aluno", sexta: "Linguagem de Programação II" },
-    { hora: "08:15 - 09:00", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Atendimento ao Aluno", sexta: "Linguagem de Programação II" },
-    { hora: "09:00 - 09:45", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Atendimento ao Aluno", sexta: "Linguagem de Programação II" },
+    { hora: "07:30 - 08:15", segunda: "Manutenção de Ensino", terça: "Manutenção de Ensino", quarta: "", quinta: "Manutenção de Ensino", sexta: "Linguagem de Programação II" },
+    { hora: "08:15 - 09:00", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Manutenção de Ensino", sexta: "Linguagem de Programação II" },
+    { hora: "09:00 - 09:45", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Manutenção de Ensino", sexta: "Linguagem de Programação II" },
     { hora: "09:45 - 10:00", segunda: "Intervalo", terça: "Intervalo", quarta: "Intervalo", quinta: "Intervalo", sexta: "Intervalo" },
-    { hora: "10:00 - 10:45", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Atendimento ao Aluno", sexta: "Atendimento ao Aluno" },
-    { hora: "10:45 - 11:30", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Atendimento ao Aluno", sexta: "Atendimento ao Aluno" },
+    { hora: "10:00 - 10:45", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Manutenção de Ensino", sexta: "Atendimento ao Aluno" },
+    { hora: "10:45 - 11:30", segunda: "Manutenção de Ensino", terça: "Web Design", quarta: "", quinta: "Manutenção de Ensino", sexta: "Atendimento ao Aluno" },
     { hora: "", segunda: "Almoço", terça: "Almoço", quarta: "Almoço", quinta: "Almoço", sexta: "Almoço" },
     { hora: "13:15 - 14:00", segunda: "Manutenção de Ensino", terça: "Multimídia", quarta: "Reuniões", quinta: "Web Design", sexta: "Multimídia" },
     { hora: "14:00 - 14:45", segunda: "Manutenção de Ensino", terça: "Multimídia", quarta: "Reuniões", quinta: "Web Design", sexta: "Multimídia" },
