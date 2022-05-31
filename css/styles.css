@@ -7,10 +7,15 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: "Roboto", monospace;
+    font-size: 86.5%;
+}
+
+body {
     background-color: #006d77;
     color: #f8f8f8;
+    font-size: 1rem;
 }
 
 header {
@@ -38,7 +43,7 @@ header img {
 .styled-table {
     border-collapse: collapse;
     /* margin: 20px 0; */
-    font-size: 0.7em;
+    /* font-size: 0.9rem; */
     /* font-family: sans-serif; */
     min-width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
@@ -51,7 +56,7 @@ header img {
     
 }
 .styled-table thead tr th {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -129,7 +134,7 @@ header img {
 }
 
 ul {
-    width: 400px;
+    max-width: 400px;
     background-color: #f8f8f8;
     padding: 10px;
 }
@@ -155,3 +160,25 @@ h2 {
 /* header img:hover {
     transform: translate(-50%, -50%) scale(5);
 } */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.6rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    .styled-table th,
+    .styled-table td {
+        padding: 4px 8px;
+    }
+
+    header img {
+        display: none;
+    }
+}
