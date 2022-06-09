@@ -5,8 +5,8 @@ let horarios = [
     { hora: "08:15 - 09:00", segunda: "Manutenção de Ensino", terça: ["Web Design", "D07"], quarta: "", quinta: "Manutenção de Ensino", sexta: ["Linguagem de Programação II", "D04"] },
     { hora: "09:00 - 09:45", segunda: "Manutenção de Ensino", terça: ["Web Design", "D07"], quarta: "", quinta: "Manutenção de Ensino", sexta: ["Linguagem de Programação II", "D04"] },
     { hora: "09:45 - 10:00", segunda: "Intervalo", terça: "Intervalo", quarta: "Intervalo", quinta: "Intervalo", sexta: "Intervalo" },
-    { hora: "10:00 - 10:45", segunda: "Manutenção de Ensino", terça: ["Web Design", "D07"], quarta: "", quinta: "Manutenção de Ensino", sexta: "Atendimento ao Aluno" },
-    { hora: "10:45 - 11:30", segunda: "Manutenção de Ensino", terça: ["Web Design", "D07"], quarta: "", quinta: "Manutenção de Ensino", sexta: "Atendimento ao Aluno" },
+    { hora: "10:00 - 10:45", segunda: "Manutenção de Ensino", terça: ["Web Design", "D07"], quarta: "", quinta: "Manutenção de Ensino", sexta: "Administrativo" },
+    { hora: "10:45 - 11:30", segunda: "Manutenção de Ensino", terça: ["Web Design", "D07"], quarta: "", quinta: "Manutenção de Ensino", sexta: "Administrativo" },
     { hora: "", segunda: "Almoço", terça: "Almoço", quarta: "Almoço", quinta: "Almoço", sexta: "Almoço" },
     { hora: "13:15 - 14:00", segunda: "Manutenção de Ensino", terça: ["Multimídia", "D04"], quarta: "Reuniões", quinta: ["Web Design", "D08"], sexta: ["Multimídia", "D04"] },
     { hora: "14:00 - 14:45", segunda: "Manutenção de Ensino", terça: ["Multimídia", "D04"], quarta: "Reuniões", quinta: ["Web Design", "D08"], sexta: ["Multimídia", "D04"] },
@@ -23,13 +23,14 @@ let horarios = [
     { hora: "21:40 - 22:30", segunda: "", terça: "", quarta: ["Algoritmos", "D05"], quinta: "", sexta: "" },
 ]
 let legenda = [
+    { name: "", color: "cinza"},
     { name: "Manutenção de Ensino", color:  "cor_1"}, 
     { name: "Atendimento ao Aluno", color: "cor_2"},
-    { name: "", color: "cinza"},
     { name: "Reuniões", color: "reunioes"},
-    { name: ["Linguagem de Programação II", 'Ciência da Computação'], color: "cor_3"},
     { name: "Almoço", color: "branco"},
     { name: "Intervalo", color: "branco"},
+    { name: "Administrativo", color: "cor_7"},
+    { name: ["Linguagem de Programação II", 'Ciência da Computação'], color: "cor_3"},
     { name: ["Web Design", 'EMI'], color: "cor_4"},
     { name: ["Multimídia", 'EMI'], color: "cor_5"},
     { name: ["Algoritmos", 'Engenharia Elétrica'], color: "cor_6"},
@@ -88,7 +89,6 @@ function generateLegenda(ul) {
         let li = document.createElement('li')
         li.classList.add(element.color)
         li.classList.add('clearfix')
-        
         
         // Se for uma aula com nome e lab
         if (Array.isArray(element.name)) {

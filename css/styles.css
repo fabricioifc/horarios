@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+:root {
+    --bg-1: #7C3E66;
+    --bg-2: #243A73;
+    --bg-3: #125B50;
+    --bg-4: #078549;
+    --bg-5: #07608F;
+    --bg-6: #e71d36;
+    --bg-7: #A25B5B;
+    --branco: #f8f8f8;
+    --preto: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -86,33 +98,38 @@ header img {
 }
 
 .cor_1 {
-    background-color: #004D0F;
-    color: #f8f8f8;
+    background-color: var(--bg-1);
+    color: var(--branco);
 }
 
 .cor_2 {
-    background-color: #430F99;
-    color: #ffffff;
+    background-color: var(--bg-2);
+    color: var(--branco);
 }
 
 .cor_3 {
-    background-color: #073885;
-    color: #ffffff;
+    background-color: var(--bg-3);
+    color: var(--branco);
 }
 
 .cor_4 {
-    background-color: #078549;
-    color: #ffffff;
+    background-color: var(--bg-4);
+    color: var(--branco);
 }
 
 .cor_5 {
-    background-color: #07608F;
-    color: #ffffff;
+    background-color: var(--bg-5);
+    color: var(--branco);
 }
 
 .cor_6 {
-    background-color: #e71d36;
-    color: #ffffff;
+    background-color: var(--bg-6);
+    color: var(--branco);
+}
+
+.cor_7 {
+    background-color: var(--bg-7);
+    color: var(--branco);
 }
 
 .reunioes {
@@ -191,4 +208,3 @@ h2 {
         display: flex; */
     /* } */
 }
-
