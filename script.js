@@ -25,7 +25,6 @@ let horarios = [
 let legenda = [
     { name: "", color: "cinza"},
     { name: "Manut. Ensino", color:  "cor_1"}, 
-    { name: "AA", color: "cor_2"},
     { name: "AA - Atendimento ao Aluno", color: "cor_2"},
     { name: "Reuniões", color: "reunioes"},
     { name: "Almoço", color: "branco"},
