@@ -1,26 +1,26 @@
 // import horarios from './horarios.json' assert {type: 'json'}
 
 let horarios = [
-    { hora: "07:30 - 08:15", segunda: ["Ling. Prog. II", "D07"], terça: "Manut. Ensino", quarta: "", quinta: "Manut. Ensino", sexta: ["Ling. Prog. II", "D04"] },
-    { hora: "08:15 - 09:00", segunda: ["Ling. Prog. II", "D07"], terça: ["A-Web Design", "D07"], quarta: "", quinta: "Manut. Ensino", sexta: ["Ling. Prog. II", "D04"] },
-    { hora: "09:00 - 09:45", segunda: ["Ling. Prog. II", "D07"], terça: ["A-Web Design", "D07"], quarta: "", quinta: "Manut. Ensino", sexta: ["Ling. Prog. II", "D04"] },
+    { hora: "07:30 - 08:15", segunda: "Manut. Ensino", terça: "Administrativo", quarta: "Administrativo", quinta: "AA", sexta: "AA" },
+    { hora: "08:15 - 09:00", segunda: "Manut. Ensino", terça: "Administrativo", quarta: "Administrativo", quinta: ["B-Multimídia", "D04"], sexta: ["B-Web Design", "D04"] },
+    { hora: "09:00 - 09:45", segunda: "Manut. Ensino", terça: "Administrativo", quarta: "Administrativo", quinta: ["B-Multimídia", "D04"], sexta: ["B-Web Design", "D04"] },
     { hora: "09:45 - 10:00", segunda: "Intervalo", terça: "Intervalo", quarta: "Intervalo", quinta: "Intervalo", sexta: "Intervalo" },
-    { hora: "10:00 - 10:45", segunda: "Manut. Ensino", terça: ["A-Web Design", "D07"], quarta: "", quinta: ["Ling. Prog. II", "D03"], sexta: "Administrativo" },
-    { hora: "10:45 - 11:30", segunda: "Manut. Ensino", terça: ["A-Web Design", "D07"], quarta: "", quinta: ["Ling. Prog. II", "D03"], sexta: "Administrativo" },
+    { hora: "10:00 - 10:45", segunda: "Manut. Ensino", terça: ["Web Design", "D04"], quarta: ["Ling. Prog. III", "D04"], quinta: ["B-Multimídia", "D04"], sexta: ["B-Web Design", "D04"] },
+    { hora: "10:45 - 11:30", segunda: "Manut. Ensino", terça: ["Web Design", "D04"], quarta: ["Ling. Prog. III", "D04"], quinta: ["B-Multimídia", "D04"], sexta: ["B-Web Design", "D04"] },
     { hora: "", segunda: "Almoço", terça: "Almoço", quarta: "Almoço", quinta: "Almoço", sexta: "Almoço" },
-    { hora: "13:15 - 14:00", segunda: "Manut. Ensino", terça: ["B-Multimídia", "D04"], quarta: "Reuniões", quinta: ["B-Web Design", "D08"], sexta: ["A-Multimídia", "D04"] },
-    { hora: "14:00 - 14:45", segunda: "Manut. Ensino", terça: ["B-Multimídia", "D04"], quarta: "Reuniões", quinta: ["B-Web Design", "D08"], sexta: ["A-Multimídia", "D04"] },
+    { hora: "13:15 - 14:00", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
+    { hora: "14:00 - 14:45", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
     { hora: "14:45 - 15:00", segunda: "Intervalo", terça: "Intervalo", quarta: "Intervalo", quinta: "Intervalo", sexta: "Intervalo" },
-    { hora: "15:00 - 15:45", segunda: "Manut. Ensino", terça: ["B-Multimídia", "D04"], quarta: "Reuniões", quinta: ["B-Web Design", "D08"], sexta: ["A-Multimídia", "D04"] },
-    { hora: "15:45 - 16:30", segunda: "Manut. Ensino", terça: ["B-Multimídia", "D04"], quarta: "Reuniões", quinta: ["B-Web Design", "D08"], sexta: ["A-Multimídia", "D04"] },
-    { hora: "16:30 - 17:15", segunda: "Manut. Ensino", terça: "AA", quarta: "Reuniões", quinta: "AA", sexta: "AA" },
-    { hora: "", segunda: "", terça: "", quarta: "Intervalo", quinta: "", sexta: "" },
-    { hora: "18:30 - 19:00", segunda: "", terça: "", quarta: "AA", quinta: "", sexta: "" },
-    { hora: "19:00 - 19:50", segunda: "", terça: "", quarta: ["Algoritmos", "D05"], quinta: "", sexta: "" },
-    { hora: "19:50 - 20:40", segunda: "", terça: "", quarta: ["Algoritmos", "D05"], quinta: "", sexta: "" },
-    { hora: "20:40 - 20:50", segunda: "", terça: "", quarta: "Intervalo", quinta: "", sexta: "" },
-    { hora: "20:50 - 21:40", segunda: "", terça: "", quarta: ["Algoritmos", "D05"], quinta: "", sexta: "" },
-    { hora: "21:40 - 22:30", segunda: "", terça: "", quarta: ["Algoritmos", "D05"], quinta: "", sexta: "" },
+    { hora: "15:00 - 15:45", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
+    { hora: "15:45 - 16:30", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
+    { hora: "16:30 - 17:15", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: "AA", sexta: "AA" },
+    { hora: "", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "18:30 - 19:00", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "19:00 - 19:50", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "19:50 - 20:40", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "20:40 - 20:50", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "20:50 - 21:40", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "21:40 - 22:30", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
 ]
 let legenda = [
     { name: "", color: "cinza"},
@@ -30,12 +30,12 @@ let legenda = [
     { name: "Almoço", color: "branco"},
     { name: "Intervalo", color: "branco"},
     { name: "Administrativo", color: "cor_7"},
-    { name: ["Ling. Prog. II", 'Ciência da Computação'], color: "cor_3"},
+    { name: ["Ling. Prog. III", 'Ciência da Computação'], color: "cor_3"},
     { name: ["A-Web Design", 'EMI'], color: "cor_4"},
     { name: ["B-Web Design", 'EMI'], color: "cor_4"},
     { name: ["A-Multimídia", 'EMI'], color: "cor_5"},
     { name: ["B-Multimídia", 'EMI'], color: "cor_5"},
-    { name: ["Algoritmos", 'Engenharia Elétrica'], color: "cor_6"},
+    { name: ["Web Design", 'Ciência da Computação'], color: "cor_6"},
 ]
 
 
@@ -50,30 +50,33 @@ function generateTableHead(table, data) {
     }
 }
 
-function generateTable(table, data) {
-    for (let element of data) {
+function generateTable(table, horarios) {
+    for (let element of horarios) {
         let row = table.insertRow();
 
         for (let key in element) {
             let cell = row.insertCell();
-            let classe;
             let text;
-            let span;
-
+            
             // Se for uma aula com nome e lab
             if (Array.isArray(element[key])) {
-                classe = legenda.find(e => e.name[0] == element[key][0]);
                 text = document.createTextNode(element[key][0]);
-                cell.append(createBadge(element[key][1]))
+                cell.append(createBadge(element[key][1]));
             } else {
-                classe = legenda.find(e => e.name == element[key]);
                 text = document.createTextNode(element[key]);
             }
-            cell.className = classe == undefined ? "" : classe.color
-            
+
+            cell.classList.add(getColorFromLegenda(element[key]));
             cell.appendChild(text);
         }
     }
+}
+
+// Comparar o name da legenda com o name do horário para pegar a classe/cor
+function getColorFromLegenda(horarioElemento) {
+    let valueToCompare = Array.isArray(horarioElemento) ? horarioElemento[0] : horarioElemento;
+    let classe = legenda.find(e => (Array.isArray(e.name) ? e.name[0] : e.name) == valueToCompare);
+    return classe === undefined ? null : classe.color;
 }
 
 function createBadge(text) {

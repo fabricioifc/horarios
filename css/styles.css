@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 :root {
-    --bg-1: #7C3E66;
-    --bg-2: #243A73;
-    --bg-3: #125B50;
+    --bg-1: #003049;
+    --bg-2: #d62828;
+    --bg-3: #f77f00;
     --bg-4: #078549;
-    --bg-5: #07608F;
+    --bg-5: #0b0011;
     --bg-6: #e71d36;
-    --bg-7: #A25B5B;
+    --bg-7: #0b421a;
     --branco: #f8f8f8;
     --preto: #000;
 }
@@ -27,7 +27,7 @@ html {
 body {
     background-color: #006d77;
     color: #f8f8f8;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 header {
@@ -73,7 +73,7 @@ header img {
 }
 
 .styled-table tr td {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
@@ -145,7 +145,7 @@ ul {
 
 ul li {
     padding: 8px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     list-style: none;
 }
 
@@ -159,6 +159,11 @@ hr {
 
 h2 {
     margin: 15px 0 5px 0;
+}
+
+a {
+    color: var(--branco);
+
 }
 
 .badge {
