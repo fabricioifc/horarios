@@ -1,5 +1,4 @@
 // import horarios from './horarios.json' assert {type: 'json'}
-
 let horarios = [
     { hora: "07:30 - 08:15", segunda: "Manut. Ensino", terça: "Administrativo", quarta: "Administrativo", quinta: "AA", sexta: "AA" },
     { hora: "08:15 - 09:00", segunda: "Manut. Ensino", terça: "Administrativo", quarta: "Administrativo", quinta: ["B-Multimídia", "D04"], sexta: ["B-Web Design", "D04"] },
@@ -9,18 +8,18 @@ let horarios = [
     { hora: "10:45 - 11:30", segunda: "Manut. Ensino", terça: ["Web Design", "D04"], quarta: ["Ling. Prog. III", "D04"], quinta: ["B-Multimídia", "D04"], sexta: ["B-Web Design", "D04"] },
     { hora: "", segunda: "Almoço", terça: "Almoço", quarta: "Almoço", quinta: "Almoço", sexta: "Almoço" },
     { hora: "13:15 - 14:00", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
-    { hora: "14:00 - 14:45", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
+    { hora: "14:00 - 14:45", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Manut. Ensino", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
     { hora: "14:45 - 15:00", segunda: "Intervalo", terça: "Intervalo", quarta: "Intervalo", quinta: "Intervalo", sexta: "Intervalo" },
-    { hora: "15:00 - 15:45", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
-    { hora: "15:45 - 16:30", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
-    { hora: "16:30 - 17:15", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Reuniões", quinta: "AA", sexta: "AA" },
-    { hora: "", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
-    { hora: "18:30 - 19:00", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
-    { hora: "19:00 - 19:50", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
-    { hora: "19:50 - 20:40", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
-    { hora: "20:40 - 20:50", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
-    { hora: "20:50 - 21:40", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
-    { hora: "21:40 - 22:30", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    { hora: "15:00 - 15:45", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Manut. Ensino", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
+    { hora: "15:45 - 16:30", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Manut. Ensino", quinta: ["A-Multimídia", "D04"], sexta: ["A-Web Design", "D04"] },
+    { hora: "16:30 - 17:15", segunda: "Manut. Ensino", terça: "Manut. Ensino", quarta: "Manut. Ensino", quinta: "Administrativo", sexta: "AA" },
+    // { hora: "", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    // { hora: "18:30 - 19:00", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    // { hora: "19:00 - 19:50", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    // { hora: "19:50 - 20:40", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    // { hora: "20:40 - 20:50", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    // { hora: "20:50 - 21:40", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
+    // { hora: "21:40 - 22:30", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
 ]
 let legenda = [
     { name: "", color: "cinza"},
