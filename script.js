@@ -3,13 +3,13 @@ let horarios = [
     { hora: "07:30 - 08:20", segunda: "Manut. Ensino",  terça: ["B-Web Design", "D08"],     quarta: "Manut. Ensino",            quinta: "Administrativo",           sexta: "Manute. Ensino" },
     { hora: "08:20 - 09:10", segunda: "Proc. Imagem",   terça: ["B-Web Design", "D08"],     quarta: ["A-Web Design", "D04"],    quinta: ["B-Multimídia", "D08"],    sexta: "Manute. Ensino" },
     { hora: "09:10 - 10:00", segunda: "Proc. Imagem",   terça: "Administrativo",            quarta: ["A-Web Design", "D04"],    quinta: ["B-Multimídia", "D08"],    sexta: "Manute. Ensino" },
-    { hora: "10:00 - 10:20", segunda: "Intervalo",      terça: "Intervalo",                 quarta: "Intervalo",                quinta: "Intervalo",                sexta: "Intervalo" },
+    { hora: "10:00 - 10:20", segunda: "AA",             terça: "Intervalo",                 quarta: "AA",                       quinta: "AA",                       sexta: "Intervalo" },
     { hora: "10:20 - 11:10", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: ["A-Web Design", "D04"],    quinta: ["B-Web Design", "D03"],    sexta: "Manute. Ensino" },
     { hora: "11:10 - 12:00", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: ["A-Web Design", "D04"],    quinta: ["B-Web Design", "D03"],    sexta: "Manute. Ensino" },
     { hora: "",              segunda: "Almoço",         terça: "Almoço",                    quarta: "Almoço",                   quinta: "Almoço",                   sexta: "Almoço" },
     { hora: "13:30 - 14:20", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: "Reuniões",                 quinta: "Administrativo",           sexta: ["A-Multimídia", "D04"] },
     { hora: "14:20 - 15:10", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: "Reuniões",                 quinta: "Administrativo",           sexta: ["A-Multimídia", "D04"] },
-    { hora: "15:10 - 15:30", segunda: "Intervalo",      terça: "Intervalo",                 quarta: "Intervalo",                quinta: "Intervalo",                sexta: "Intervalo" },
+    { hora: "15:10 - 15:30", segunda: "AA",             terça: "Intervalo",                 quarta: "Intervalo",                       quinta: "AA",                       sexta: "AA" },
     { hora: "15:30 - 16:20", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: "Manut. Ensino",            quinta: ["A-Web Design", "D08"],    sexta: ["A-Multimídia", "D04"] },
     { hora: "16:20 - 17:10", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: "Manut. Ensino",            quinta: ["A-Web Design", "D08"],    sexta: ["A-Multimídia", "D04"] },
     // { hora: "", segunda: "", terça: "", quarta: "", quinta: "", sexta: "" },
@@ -26,7 +26,7 @@ let legenda = [
     { name: ["AA", 'Atendimento ao Aluno'], color: "cor_2"},
     { name: "Reuniões", color: "reunioes"},
     { name: "Almoço", color: "branco"},
-    { name: "Intervalo", color: "branco"},
+    { name: "AA", color: "branco"},
     { name: "Administrativo", color: "cor_7"},
     { name: ["Proc. Imagem", 'Ciência da Computação'], color: "cor_3"},
     { name: ["A-Web Design", 'EMI'], color: "cor_4"},
@@ -101,7 +101,7 @@ function generateLegenda(ul) {
             name = element.name
         }
 
-        if (!['','Almoço', 'Intervalo'].includes(name)) {
+        if (!['','Almoço', 'AA'].includes(name)) {
 
             
             text = document.createTextNode(name)
