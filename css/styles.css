@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 :root {
-    --bg-1: #07f9a2;
-    --bg-2: #09c184;
-    --bg-3: #0a8967;
-    --bg-4: #0c5149;
-    --bg-5: #0d192b;
-    --bg-6: #c3e6d4;
-    --bg-7: #8ab3cf;
-    --branco: #f8f8f8;
-    --preto: #000;
-}
-
-/* :root {
     --bg-1: #003049;
     --bg-2: #d62828;
     --bg-3: #f77f00;
@@ -22,7 +10,7 @@
     --bg-7: #0b421a;
     --branco: #f8f8f8;
     --preto: #000;
-} */
+}
 
 * {
     margin: 0;
@@ -77,8 +65,7 @@ header img {
 }
 
 .styled-table thead tr {
-    /* background-color: #009879; */
-    background-color: #ffd41f;
+    background-color: #009879;
     color: #ffffff;
     text-align: left;
     
