@@ -183,6 +183,10 @@ a {
     font-weight: bold;
 }
 
+.email-text {
+    color: #d62828;
+}
+
 .clearfix {
     overflow: auto;
 }
