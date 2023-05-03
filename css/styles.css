@@ -25,7 +25,8 @@ html {
 }
 
 body {
-    background-color: #006d77;
+    /* background-color: #006d77; */
+    background-color: #fff;
     color: #222;
     font-size: 1rem;
 }
