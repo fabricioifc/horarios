@@ -3,11 +3,11 @@
 :root {
     --bg-1: #003049;
     --bg-2: #d62828;
-    --bg-3: #f77f00;
+    --bg-3: #6b456c;
     --bg-4: #078549;
-    --bg-5: #0b0011;
+    --bg-5: #eb0a44;
     --bg-6: #e71d36;
-    --bg-7: #0b421a;
+    --bg-7: #abdb25;
     --branco: #f8f8f8;
     --preto: #000;
 }
@@ -65,7 +65,7 @@ header img {
 }
 
 .styled-table thead tr {
-    background-color: #009879;
+    background-color: #125B50;
     color: #ffffff;
     text-align: left;
     
@@ -132,7 +132,7 @@ header img {
 
 .cor_7 {
     background-color: var(--bg-7);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .reunioes {

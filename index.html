@@ -10,8 +10,9 @@
     <title>Horários</title>
 
     <link rel="shortcut icon" href="eu.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/forkme.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <span id="forkongithub"><a href="https://github.com/fabricioifc/horarios">Fork</a></span>
@@ -29,24 +30,29 @@
     </header>
 
     <main>
+
         <div class="container clearfix">
-            <table class="styled-table" id="table"></table>
-        </div>
-        <div class="bg-white">
-            <div class="container clearfix">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <h2 class="center">Legenda</h2>
-                    <ul id="legenda"></ul>
+            <div class="tabset">
+                <!-- Tab 1 -->
+                <input type="radio" name="tabset" id="tab1" aria-controls="a" checked>
+                <label for="tab1">Horários</label>
+                <!-- Tab 2 -->
+                <input type="radio" name="tabset" id="tab2" aria-controls="b">
+                <label for="tab2">Legenda</label>
+                
+                <div class="tab-panels">
+                    <section id="a" class="tab-panel">
+                        <div class="container clearfix">
+                            <table class="styled-table" id="table"></table>
+                        </div>
+                    </section>
+                    <section id="b" class="tab-panel">
+                        <div class="col-5">
+                            <ul id="legenda"></ul>
+                        </div>
+                    </section>
                 </div>
-                <!-- <div class="col-1"></div>
-                <div class="col-5">
-                    <h2 class="center">Outros Horários de AA<br />(Atendimento ao Aluno)</h2>
-                    <p><b>*</b> Intervalos de aula </p>
-                    <p><b>*</b> Terça-feira 11h30m à 12h</p>
-                    <p><b>*</b> Quarta-feira 11h30m à 12h</p>
-                    <p><b>*</b> <a href="https://docs.google.com/spreadsheets/d/1RRXnEx4F0BLw1kKAYdcoYvD7HqK1HYRWX3rSwo4bRdk/edit#gid=2029207286">Planilha de Horários</a></p>
-                </div> -->
+                
             </div>
         </div>
     </main>
