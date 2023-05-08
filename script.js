@@ -1,11 +1,11 @@
 // import horarios from './horarios.json' assert {type: 'json'}
 let horarios = [
-    { hora: "07:30 - 08:20", segunda: "Manut. Ensino",  terça: ["B-Web Design", "D08"],     quarta: "Manut. Ensino",            quinta: "Administrativo",           sexta: "Manut. Ensino" },
+    { hora: "07:30 - 08:20", segunda: ["Proc. Imagem", "D04"],  terça: ["B-Web Design", "D08"],     quarta: "Manut. Ensino",            quinta: "Administrativo",           sexta: "Manut. Ensino" },
     { hora: "08:20 - 09:10", segunda: ["Proc. Imagem", "D04"],   terça: ["B-Web Design", "D08"],     quarta: ["A-Web Design", "D04"],    quinta: ["B-Multimídia", "D08"],    sexta: "Manut. Ensino" },
     { hora: "09:10 - 10:00", segunda: ["Proc. Imagem", "D04"],   terça: "Administrativo",            quarta: ["A-Web Design", "D04"],    quinta: ["B-Multimídia", "D08"],    sexta: "Manut. Ensino" },
     { hora: "10:00 - 10:20", segunda: "AA",             terça: "Intervalo",                 quarta: "AA",                       quinta: "AA",                       sexta: "Intervalo" },
-    { hora: "10:20 - 11:10", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: ["A-Web Design", "D04"],    quinta: ["B-Web Design", "D03"],    sexta: "Manut. Ensino" },
-    { hora: "11:10 - 12:00", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: ["A-Web Design", "D04"],    quinta: ["B-Web Design", "D03"],    sexta: "Manut. Ensino" },
+    { hora: "10:20 - 11:10", segunda: ["Proc. Imagem", "D04"],  terça: "Manut. Ensino",             quarta: ["A-Web Design", "D04"],    quinta: ["B-Web Design", "D03"],    sexta: "Manut. Ensino" },
+    { hora: "11:10 - 12:00", segunda: ["Proc. Imagem", "D04"],  terça: "Manut. Ensino",             quarta: ["A-Web Design", "D04"],    quinta: ["B-Web Design", "D03"],    sexta: "Manut. Ensino" },
     { hora: "",              segunda: "Almoço",         terça: "Almoço",                    quarta: "Almoço",                   quinta: "Almoço",                   sexta: "Almoço" },
     { hora: "13:30 - 14:20", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: "Reuniões",                 quinta: "Administrativo",           sexta: ["A-Multimídia", "D04"] },
     { hora: "14:20 - 15:10", segunda: "Manut. Ensino",  terça: "Manut. Ensino",             quarta: "Reuniões",                 quinta: "Administrativo",           sexta: ["A-Multimídia", "D04"] },
