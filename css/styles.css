@@ -2,12 +2,12 @@
 
 :root {
     --bg-1: #003049;
-    --bg-2: #d62828;
-    --bg-3: #6b456c;
+    --bg-2: #0FC2C0;
+    --bg-3: #0CABA8;
     --bg-4: #078549;
-    --bg-5: #eb0a44;
-    --bg-6: #e71d36;
-    --bg-7: #abdb25;
+    --bg-5: #008F8C;
+    --bg-6: #015958;
+    --bg-7: #023535;
     --branco: #f8f8f8;
     --preto: #000;
 }
@@ -132,12 +132,12 @@ header img {
 
 .cor_7 {
     background-color: var(--bg-7);
-    color: var(--preto);
+    color: var(--branco);
 }
 
 .reunioes {
     background-color: #000;
-    color: #ffffff;
+    color: var(--branco);
 }
 
 ul {
