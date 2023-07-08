@@ -26,6 +26,7 @@ let legenda = [
     { name: ["AA", 'Atendimento ao Aluno'], color: "branco"},
     { name: "Reuniões", color: "reunioes"},
     { name: "Almoço", color: "branco"},
+    { name: "Intervalo", color: "branco"},
     { name: "Administrativo", color: "cor_7"},
     { name: ["Desenv. Web I", 'Ciência da Computação'], color: "cor_3"},
     { name: ["A-Web Design", 'EMI'], color: "cor_4"},
